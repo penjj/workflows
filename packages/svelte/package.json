@@ -1,6 +1,6 @@
 {
   "name": "@penjj/eslint-config-svelte",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./index.js",
   "author": "peng.j.1995@gmail.com",
   "publishConfig": {
