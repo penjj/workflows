@@ -1,6 +1,6 @@
 {
   "name": "@penjj/eslint-config-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./index.js",
   "author": "peng.j.1995@gmail.com",
   "publishConfig": {
