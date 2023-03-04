@@ -1,0 +1,11 @@
+{
+  "name": "@penjj/eslint-config-import",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "author": "peng.j.1995@gmail.com",
+  "dependencies": {
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-css-import-order": "^1.1.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@penjj/eslint-config-prettier",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "files": [
+    "./index.js",
+    "./config.js"
+  ],
+  "author": "peng.j.1995@gmail.com",
+  "dependencies": {
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  },
+  "peerDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.6.2"
+  }
+}

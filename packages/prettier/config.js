@@ -1,0 +1,20 @@
+module.exports = {
+  tabWidth: 2,
+  semi: false,
+  singleQuote: true,
+  jsxSingleQuote: true,
+  proseWrap: 'never',
+  bracketSpacing: true,
+  jsxBracketSameLine: false,
+  arrowParens: 'avoid',
+  trailingComma: 'es5',
+  printWidth: 80,
+  endOfLine: 'auto',
+  htmlWhitespaceSensitivity: 'ignore',
+  overrides: [
+    {
+      files: '*.html',
+      options: { parser: 'html' },
+    },
+  ],
+}

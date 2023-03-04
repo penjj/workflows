@@ -1,0 +1,21 @@
+{
+  "name": "@penjj/eslint-config",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "files": [
+    "./index.js",
+    "./prettier.js"
+  ],
+  "author": "peng.j.1995@gmail.com",
+  "dependencies": {
+    "@penjj/eslint-config-import": "workspace:*",
+    "@penjj/eslint-config-prettier": "workspace:*",
+    "@penjj/eslint-config-react": "workspace:*",
+    "@penjj/eslint-config-vue": "workspace:*",
+    "@penjj/eslint-config-vue2": "workspace:*",
+    "eslint": "^8.35.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.29.0"
+  }
+}

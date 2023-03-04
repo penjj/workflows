@@ -1,0 +1,18 @@
+{
+  "name": "code-style",
+  "version": "0.0.0",
+  "author": "peng.j.1995@gmail.com",
+  "description": "My Favorite code style",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint . --ext=js,vue,ts,tsx --fix",
+    "release": "bumpp -r --all && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@penjj/eslint-config": "workspace:*",
+    "bumpp": "^9.0.0",
+    "eslint": "^8.35.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
