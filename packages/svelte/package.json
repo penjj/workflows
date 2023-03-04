@@ -1,6 +1,6 @@
 {
-  "name": "@penjj/eslint-config-vue",
-  "version": "0.0.1",
+  "name": "@penjj/eslint-config-svelte",
+  "version": "0.0.2",
   "main": "./index.js",
   "author": "peng.j.1995@gmail.com",
   "publishConfig": {
@@ -8,11 +8,9 @@
   },
   "dependencies": {
     "@penjj/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-vue": "^8.7.1",
-    "vue-eslint-parser": "^9.1.0"
+    "eslint-plugin-svelte3": "^4.0.0"
   },
   "peerDependencies": {
-    "eslint-plugin-vue": "^8.5.0",
-    "vue-eslint-parser": "^9.1.0"
+    "eslint-plugin-svelte3": "^8.5.0"
   }
 }

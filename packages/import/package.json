@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "main": "./index.js",
   "author": "peng.j.1995@gmail.com",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-css-import-order": "^1.1.0",

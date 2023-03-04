@@ -6,6 +6,9 @@
     "./index.js",
     "./prettier.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "peng.j.1995@gmail.com",
   "dependencies": {
     "@penjj/eslint-config-import": "workspace:*",
