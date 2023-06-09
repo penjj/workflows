@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-all-in-one",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "peng.j.1995@gmail.com",
   "description": "eslint config all in one.",
   "main": "lib/index.js",
@@ -31,7 +31,8 @@
   },
   "devDependencies": {
     "eslint-plugin-all-in-one": "workspace:*",
-    "typescript": "~5.0.0"
+    "typescript": "~5.0.0",
+    "bumpp": "^9.1.1"
   },
   "peerDependencies": {
     "eslint": "^8.42.0"
