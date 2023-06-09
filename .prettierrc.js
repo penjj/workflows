@@ -1,3 +1,1 @@
-module.exports = {
-  ...require('@penjj/eslint-config/prettier'),
-}
+module.exports = require('./prettier')

@@ -1,19 +1,39 @@
 {
-  "name": "code-style",
-  "version": "0.0.3",
+  "name": "eslint-plugin-all-in-one",
+  "version": "0.0.1",
   "author": "peng.j.1995@gmail.com",
-  "description": "My Favorite code style",
-  "private": true,
+  "description": "eslint config all in one.",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "prettier.js"
+  ],
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext=js,vue,ts,tsx --fix",
-    "release": "bumpp -r --all && pnpm -r publish --access public"
+    "release": "bumpp --all && pnpm publish --access public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-css-import-order": "^1.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unocss": "0.0.1-alpha.3",
+    "eslint-plugin-vue": "^9.14.1",
+    "prettier": "^2.8.8",
+    "vue-eslint-parser": "^9.3.0"
   },
   "devDependencies": {
-    "@penjj/eslint-config": "workspace:*",
-    "bumpp": "^9.0.0",
-    "eslint": "^8.35.0",
-    "prettier": "^2.8.4",
-    "typescript": "^4.9.5"
+    "eslint-plugin-all-in-one": "workspace:*",
+    "typescript": "~5.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.42.0"
   }
 }
