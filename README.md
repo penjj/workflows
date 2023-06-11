@@ -1,14 +1,25 @@
-# code-style
+# eslint-plugin-all-in-one
 
 penjj's ESLint config presets.
 
 
 ```bash
-npm install @penjj/eslint-config -D
+npm install eslint-plugin-all-in-one -D
 
 # .eslintrc
+
+# compose your needed configure.
 {
-  "extends": "@penjj"
+  "root": true,
+  "extends": [
+    "plugin:all-in-one/import",
+    "plugin:all-in-one/prettier",
+    "plugin:all-in-one/react",
+    "plugin:all-in-one/solid",
+    "plugin:all-in-one/typescript",
+    "plugin:all-in-one/unocss",
+    "plugin:all-in-one/vue"
+  ]
 }
 
 ```
