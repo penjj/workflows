@@ -7,7 +7,8 @@ npm remove eslint prettier
 # Install only `eslint-plugin-all-in-one`.
 npm install eslint-plugin-all-in-one -D
 
-# In your `.eslintrc` config file, combine the necessary presets to use `eslint-plugin-all-in-one`.
+# In your `.eslintrc` config file, combine the necessary presets
+# to use `eslint-plugin-all-in-one`.
 {
   "root": true,
   "extends": [
