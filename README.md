@@ -1,13 +1,9 @@
 # eslint-plugin-all-in-one
 
-penjj's ESLint config presets.
-
-
 ```bash
 npm install eslint-plugin-all-in-one -D
 
 # .eslintrc
-
 # compose your needed configure.
 {
   "root": true,
