@@ -1,10 +1,13 @@
 # eslint-plugin-all-in-one
 
 ```bash
+# Remove everything related to `eslint` and `prettier`.
+npm remove eslint prettier
+
+# Install only `eslint-plugin-all-in-one`.
 npm install eslint-plugin-all-in-one -D
 
-# .eslintrc
-# compose your needed configure.
+# In your `.eslintrc` config file, combine the necessary presets to use `eslint-plugin-all-in-one`.
 {
   "root": true,
   "extends": [
