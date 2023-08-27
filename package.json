@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-all-in-one",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "peng.j.1995@gmail.com",
   "description": "eslint config all in one.",
   "main": "lib/index.js",
