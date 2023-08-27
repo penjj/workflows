@@ -7,19 +7,29 @@ npm remove eslint prettier
 # Install only `eslint-plugin-all-in-one`.
 npm install eslint-plugin-all-in-one -D
 
-# In your `.eslintrc` config file, combine the necessary presets
-# to use `eslint-plugin-all-in-one`.
+# Add the following to your `package.json` file.
+# You not need to create `.eslintrc.js` and `.prettierrc.js` files.
 {
-  "root": true,
-  "extends": [
-    "plugin:all-in-one/import",
-    "plugin:all-in-one/prettier",
-    "plugin:all-in-one/react",
-    "plugin:all-in-one/solid",
-    "plugin:all-in-one/typescript",
-    "plugin:all-in-one/unocss",
-    "plugin:all-in-one/vue"
-  ]
+  "eslintConfig": {
+    "extends": [
+      "plugin:all-in-one/import",
+      "plugin:all-in-one/prettier",
+      "plugin:all-in-one/typescript",
+      "plugin:all-in-one/react", // If you use React
+      "plugin:all-in-one/solid", // If you use Solid
+      "plugin:all-in-one/unocss", // If you use Uno.css
+      "plugin:all-in-one/vue" // If you use Vue
+    ],
+    ignorePatterns: [
+      "dist",
+      "public"
+    ]
+  },
+  "prettier": "eslint-plugin-all-in-one/prettier"
 }
 
+```
+
+```bash
+""
 ```
