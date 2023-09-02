@@ -18,7 +18,7 @@
     "eslint-plugin-all-in-one": "workspace:*",
     "@penjj/eslint-config": "workspace:*",
     "@penjj/prettier-config": "workspace:*",
-    "typescript": "~5.0.4"
+    "typescript": "^5.2.2"
   },
   "eslintConfig": {
     "extends": "@penjj"
