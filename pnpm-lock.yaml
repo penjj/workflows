@@ -7,6 +7,24 @@ settings:
 importers:
 
   .:
+    devDependencies:
+      '@penjj/eslint-config':
+        specifier: workspace:*
+        version: link:packages/penjj
+      '@penjj/prettier-config':
+        specifier: workspace:*
+        version: link:packages/prettier
+      bumpp:
+        specifier: ^9.2.0
+        version: 9.2.0
+      eslint-plugin-all-in-one:
+        specifier: workspace:*
+        version: link:packages/all-in-one
+      typescript:
+        specifier: ~5.0.4
+        version: 5.0.4
+
+  packages/all-in-one:
     dependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.62.0
@@ -50,16 +68,20 @@ importers:
       vue-eslint-parser:
         specifier: ^9.3.1
         version: 9.3.1(eslint@8.48.0)
-    devDependencies:
-      bumpp:
-        specifier: ^9.2.0
-        version: 9.2.0
+
+  packages/penjj:
+    dependencies:
+      '@penjj/prettier-config':
+        specifier: workspace:*
+        version: link:../prettier
+      eslint:
+        specifier: ^8.42.0
+        version: 8.48.0
       eslint-plugin-all-in-one:
         specifier: workspace:*
-        version: 'link:'
-      typescript:
-        specifier: ~5.0.4
-        version: 5.0.4
+        version: link:../all-in-one
+
+  packages/prettier: {}
 
 packages:
 

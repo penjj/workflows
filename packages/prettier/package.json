@@ -1,0 +1,15 @@
+{
+  "name": "@penjj/prettier-config",
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "version": "0.2.0",
+  "author": "peng.j.1995@gmail.com",
+  "description": "penjj's prettier config.",
+  "homepage": "https://github.com/penjj/eslint-plugin-all-in-one",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
