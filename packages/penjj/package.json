@@ -14,6 +14,7 @@
   },
   "peerDependencies": {
     "eslint": "^8.42.0",
+    "prettier": "^3.0.0",
     "eslint-plugin-all-in-one": "*",
     "@penjj/prettier-config": "*"
   },
