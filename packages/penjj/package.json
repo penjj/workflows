@@ -1,0 +1,24 @@
+{
+  "name": "@penjj/eslint-config",
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "version": "0.2.0",
+  "author": "peng.j.1995@gmail.com",
+  "description": "penjj's eslint config.",
+  "homepage": "https://github.com/penjj/eslint-plugin-all-in-one",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-plugin-all-in-one": "*",
+    "@penjj/prettier-config": "*"
+  },
+  "dependencies": {
+    "eslint-plugin-all-in-one": "workspace:*",
+    "@penjj/prettier-config": "workspace:*"
+  }
+}

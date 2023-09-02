@@ -19,7 +19,7 @@ jobs:
           registry-url: https://registry.npmjs.org
       - run: corepack enable
       - run: pnpm i
-      - run: pnpm publish --no-git-checks
+      - run: pnpm publish -r --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
