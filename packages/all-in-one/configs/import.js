@@ -29,6 +29,6 @@ module.exports = {
         ],
       },
     ],
-    'import/no-unresolved': ['error'],
+    'import/no-unresolved': ['error', { ignore: ['uno.css'] }],
   },
 }
