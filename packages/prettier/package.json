@@ -11,5 +11,11 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "prettier": "^3.0.3"
   }
 }

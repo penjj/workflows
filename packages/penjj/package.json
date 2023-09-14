@@ -15,8 +15,10 @@
   "peerDependencies": {
     "eslint": "^8.42.0",
     "prettier": "^3.0.0",
-    "eslint-plugin-all-in-one": "*",
-    "@penjj/prettier-config": "*"
+    "eslint-plugin-all-in-one": "workspace:*",
+    "@penjj/prettier-config": "workspace:*",
+    "@penjj/stylelint-config": "workspace:*",
+    "@penjj/tsconfig": "workspace:*"
   },
   "dependencies": {
     "eslint-plugin-all-in-one": "workspace:*",

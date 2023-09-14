@@ -30,5 +30,14 @@ module.exports = {
       },
     ],
     'import/no-unresolved': ['error', { ignore: ['uno.css'] }],
+    'max-len': [
+      'error',
+      {
+        code: 80,
+        ignoreUrls: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+      },
+    ],
   },
 }

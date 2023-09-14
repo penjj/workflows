@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
+    'plugin:package-json/recommended',
   ],
   settings: {
     'import/resolver': {
@@ -14,11 +15,13 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module',
     jsxPragma: 'React',
+    project: ['tsconfig.json'],
     ecmaFeatures: {
       jsx: true,
     },
+    extraFileExtensions: ['.ts', '.js', '.jsx', '.vue', '.jsx'],
   },
-  plugins: ['@typescript-eslint', 'import'],
+  plugins: ['@typescript-eslint', 'import', 'package-json'],
   rules: {
     'max-len': ['error', 80],
     '@typescript-eslint/no-explicit-any': ['off'],

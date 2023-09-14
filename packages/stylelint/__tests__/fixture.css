@@ -1,0 +1,11 @@
+body {
+  max-width: 100px;
+  top: 1000px;
+  display: block;
+  font-size: 100px;
+  animation: both;
+}
+
+a {
+  color: #zzz;
+}
