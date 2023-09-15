@@ -4,6 +4,6 @@
     "tsconfig.json"
   ],
   "license": "MIT",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "An opinionated TypeScript config."
 }

@@ -4,7 +4,7 @@
   "files": [
     "index.js"
   ],
-  "version": "0.3.5",
+  "version": "0.3.6",
   "author": "peng.j.1995@gmail.com",
   "description": "penjj's eslint config.",
   "homepage": "https://github.com/penjj/eslint-plugin-all-in-one",
