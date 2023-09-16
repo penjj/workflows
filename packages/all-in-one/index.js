@@ -7,5 +7,6 @@ module.exports = {
     typescript: require('./configs/typescript'),
     unocss: require('./configs/unocss'),
     vue: require('./configs/vue'),
+    astro: require('./configs/astro'),
   },
 }

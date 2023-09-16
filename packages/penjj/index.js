@@ -6,6 +6,7 @@ module.exports = {
     'plugin:all-in-one/typescript',
     'plugin:all-in-one/unocss',
     'plugin:all-in-one/vue',
+    'plugin:all-in-one/astro',
   ],
   ignorePatterns: ['dist', 'dist-*', 'lib', 'output', 'public'],
 }
