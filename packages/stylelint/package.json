@@ -1,6 +1,6 @@
 {
   "name": "@penjj/stylelint-config",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "main": "index.js",
   "description": "A shareable stylelint config object that enforces penjj's css rules",
   "license": "MIT",
