@@ -105,8 +105,8 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
       prettier-plugin-astro:
-        specifier: ^0.12.0
-        version: 0.12.0
+        specifier: ^0.14.0
+        version: 0.14.0
 
   packages/stylelint:
     dependencies:
@@ -2872,8 +2872,8 @@ packages:
       fast-diff: 1.3.0
     dev: false
 
-  /prettier-plugin-astro@0.12.0:
-    resolution: {integrity: sha512-8E+9YQR6/5CPZJs8XsfBw579zrwZkc0Wb7x0fRVm/51JC8Iys4lBw4ecV8fHwpbQnzve86TUa4fJ08BJzqfWnA==}
+  /prettier-plugin-astro@0.14.0:
+    resolution: {integrity: sha512-7jRGJsexaRIyUzTk8uzXlP45cw6DQ5Ci4bTe0xCBCcuO1Fff8jJy9oI+kRCQKSdDFTSAArMSg8GpvzlKBtSaZA==}
     engines: {node: ^14.15.0 || >=16.0.0}
     dependencies:
       '@astrojs/compiler': 1.8.2
