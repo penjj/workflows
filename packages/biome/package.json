@@ -1,0 +1,10 @@
+{
+  "name": "@penjj/biome-config",
+  "type": "module",
+  "files": [
+    "biome.jsonc"
+  ],
+  "exports": {
+    ".": "./biome.jsonc"
+  }
+}
