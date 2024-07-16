@@ -1,6 +1,13 @@
 {
   "name": "@penjj/biome-config",
   "type": "module",
+  "author": "penjj <peng.j.1995@gmail.com>",
+  "description": "penjj's biome config.",
+  "homepage": "https://github.com/penjj/penjj-style",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "biome.jsonc"
   ],
