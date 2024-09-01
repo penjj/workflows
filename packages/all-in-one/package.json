@@ -31,7 +31,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unocss": "0.0.1-alpha.3",
-    "eslint-plugin-astro": "^0.29.0",
+    "eslint-plugin-astro": "^1.2.3",
     "eslint-plugin-vue": "^9.27.0",
     "prettier": "^3.0.3",
     "vue-eslint-parser": "^9.3.1"
