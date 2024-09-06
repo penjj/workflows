@@ -1,0 +1,4 @@
+{
+  "$schema": "http://biomejs.dev/schemas/1.8.3/schema.json",
+  "extends": ["@penjj/biome-config"]
+}

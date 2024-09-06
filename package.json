@@ -1,28 +1,19 @@
 {
-  "name": "monorepo",
-  "version": "0.4.0",
-  "author": "peng.j.1995@gmail.com",
-  "description": "eslint config all in one.",
-  "homepage": "https://github.com/penjj/eslint-plugin-all-in-one",
-  "main": "lib/index.js",
+  "name": "penjj-workflow-monorepo",
   "private": true,
+  "publishConfig": {
+    "access": "restricted"
+  },
   "license": "MIT",
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "pnpm@9.9.0",
   "scripts": {
-    "format": "prettier --write .",
-    "lint": "eslint . --ext=js,vue,ts,tsx --fix",
     "release": "bumpp -r"
   },
   "devDependencies": {
-    "bumpp": "^9.2.0",
-    "eslint-plugin-all-in-one": "workspace:*",
-    "@penjj/eslint-config": "workspace:*",
-    "@penjj/prettier-config": "workspace:*",
+    "bumpp": "^9.5.2",
+    "@biomejs/biome": "^1.8.3",
+    "@penjj/biome-config": "workspace:*",
     "@penjj/tsconfig": "workspace:*",
-    "typescript": "^5.2.2"
-  },
-  "eslintConfig": {
-    "extends": "@penjj"
-  },
-  "prettier": "@penjj/prettier-config"
+    "typescript": "^5.5.4"
+  }
 }

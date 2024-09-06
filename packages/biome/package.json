@@ -1,18 +1,24 @@
 {
   "name": "@penjj/biome-config",
-  "type": "module",
-  "author": "penjj <peng.j.1995@gmail.com>",
-  "description": "penjj's biome config.",
-  "homepage": "https://github.com/penjj/penjj-style",
   "license": "MIT",
+  "version": "0.4.0",
+  "description": "An opinionated TypeScript config.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/workflow.git",
+    "directory": "packages/biome"
+  },
+  "keywords": ["penjj", "biome-config", "biome"],
+  "author": {
+    "name": "penjj",
+    "email": "peng.j.1995@gmail.com"
+  },
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "biome.jsonc"
-  ],
+  "files": ["biome.jsonc"],
   "exports": {
     ".": "./biome.jsonc"
-  },
-  "version": "0.4.0"
+  }
 }
